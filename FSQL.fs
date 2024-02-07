@@ -87,7 +87,7 @@ type RichTextBoxWithSqlHighlighting() =
     Lock.LockWindowUpdate(0)
 
 let datasourceConf = "datasource.conf"
-let lastQueryConf  = "lastQery.fsql"
+let lastQueryConf  = "lastQuery.fsql"
 
 let form = new MetroForm()
 form.Width  <- 800
